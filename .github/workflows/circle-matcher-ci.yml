@@ -42,7 +42,7 @@ jobs:
         with:
           graalvm-version: '21.0.0.java11'
       - name: Run actions cache
-        uses: actions/cache@c64c572235d810460d0d6876e9c705ad5002b353
+        uses: actions/cache@67b6d52d50609f6166e3ea1d8872aca3a4763bd2
         with:
           path: ~/.m2/repository
           key: ${{ runner.os }}-maven-${{ hashFiles('./circle-matcher/pom.xml') }}
