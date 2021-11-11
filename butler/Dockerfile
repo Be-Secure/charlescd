@@ -1,4 +1,4 @@
-FROM node@sha256:be1c8c7f0b61e86c4ee94b12d18a810fedfc2a29d4d0ef0ce1ff89c1f2efca11
+FROM node@sha256:fb256ef025424b407fb806a9828b105d82aac93c7168a1a8bc156bc82996b939
 
 ENV APP_PATH /opt/darwin-deploy
 
